@@ -5,8 +5,21 @@
     android:layout_height="match_parent"
     tools:context="com.android.leo.awsomecustomview.SplashActivity"
     >
-
+<!--
     <com.android.leo.awsomecustomview.view.PorterDuffXfermodeView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+     <com.android.leo.awsomecustomview.view.PathView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />
+
+    <com.android.leo.awsomecustomview.view.ECGView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+ !-->
+    <com.android.leo.awsomecustomview.view.MatrixImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"/>
 </RelativeLayout>
